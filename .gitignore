@@ -1,13 +1,11 @@
-# Ignore all .env files in the project
-*.pyc
-*.pyo
-__pycache__/
-
-*.log
-
-
-# Ignore migrations
-**/migrations/*
-!**/migrations/__init__.py
-
-*.env
+venv/
+.pytest_cache
+**__pycache__/
+db.sqlite3
+.env
+.coverage
+.vscode
+htmlcov/
+schema.yml
+*-commands.md
+.DS_store
