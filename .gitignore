@@ -13,3 +13,17 @@ schema.yml
 *.pyc
 *.pyo
 __pycache__/
+
+# Ignore all .env files in the project
+*.pyc
+*.pyo
+__pycache__/
+
+*.log
+
+
+# Ignore migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+*.env
